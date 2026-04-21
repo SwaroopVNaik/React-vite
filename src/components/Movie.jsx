@@ -4,6 +4,10 @@ let Movie = () => {
     let actoress = "Sara_Arjun"
     let movie_image = 'https://opensource.fb.com/img/projects/react.jpg'
 
+    let greet = () => {
+        return "GA"
+    }
+
     return <div>
         <h1>Movie Component</h1>
         <h2>Movie_Name : {Movie_Name}</h2>
@@ -11,6 +15,7 @@ let Movie = () => {
         <h2>Actoress : {actoress}</h2>
         <img src= {movie_image}/>
         <h2>Movie Ticket Pice : {500*3}</h2>
+        <h2>{greet()}</h2>
     </div>
 }
 
