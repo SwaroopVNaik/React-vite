@@ -1,19 +1,15 @@
-// Root Component
-import react from 'react'
-import Message from './components/Message';
-import Movie from './components/Movie';
-class App extends react.Component {
-  render() {
-    return (
-      <div style={{ backgroundColor: "#1e293b", color: 'white', fontStyle : 'italic' }}>
+import React from "react";
+import User from "./Users/User";
+class App extends React.Component{
+    
+    render(){
+        return <div>
         <h1>App Component</h1>
-        <hr />
-        <Message />
-        <hr />
-        <Movie />
-      </div>
-    );
-  }
+        <hr/>
+        <User/>
+    </div>
+}
+
 }
 
 export default App;
