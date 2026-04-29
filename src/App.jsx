@@ -4,12 +4,13 @@ import React from "react";
 // import Message from "../States/Message";
 // import Message_State from "../States/Message_State";
 // import Counter from "../States/Counter";
-import Navbar from "./components/Navbar";
+// import Navbar from "./Navbar/Navbar"
+import Employee from "./EMPLOYEE/Employee";
 
 let App = () =>{
 
     return <div>
-        <Navbar />
+        <Employee />
     </div>
 
 }
