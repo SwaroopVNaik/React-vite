@@ -5,12 +5,13 @@ import React from "react";
 // import Message_State from "../States/Message_State";
 // import Counter from "../States/Counter";
 // import Navbar from "./Navbar/Navbar"
-import Employee from "./EMPLOYEE/Employee";
+// import Employee from "./EMPLOYEE/Employee";
+import Product from "./Products/Product";
 
 let App = () =>{
 
     return <div>
-        <Employee />
+        <Product />
     </div>
 
 }
